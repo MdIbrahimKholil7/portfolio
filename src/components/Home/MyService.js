@@ -5,7 +5,7 @@ const MyService = () => {
     return (
         <div className='my-24 px-4'>
             <h1 className='text-center mb-24 lg:text-3xl xl:text-4xl text-2xl'><span className='title relative py-7'>My Services</span></h1>
-            <div className='grid  md:grid-cols-2 lg:grid-cols-3 gap-7 mt-12'>
+            <div className='grid  md:grid-cols-2 lg:grid-cols-3 gap-7 mt-12 justify-items-center'>
                 <div className='service-card xl:p-9 max-w-sm shadow-xl p-2 '>
                     <div className='text-center flex justify-center'>
                         <BiCodeAlt
