@@ -15,9 +15,9 @@ const Banner = () => {
     return (
         <div>
             <div class=" w-full min-h-screen bg-base-200">
-                <div class="flex h-screen items-center justify-start px-20">
+                <div class="flex h-screen items-center justify-start md:px-20 px-4">
                     <div class="max-w-lg text-left">
-                        <h1 class="text-4xl font-bold font">Hi, I am <span className='text-[#037fff]'>Ibrahim Kholil</span></h1>
+                        <h1 class="md:text-4xl text-2xl font-bold font">Hi, I am <span className='text-[#037fff]'>Ibrahim Kholil</span></h1>
                         <div className='text-2xl mt-2'>
                             I Am A
                             <span className='text-[#037fff] font-bold'>

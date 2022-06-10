@@ -9,7 +9,7 @@ import Navbar from './components/Home/Navbar';
 
 function App() {
   return (
-    <div className="App max-w-[1500px] mx-auto">
+    <div className="App bg-base-200">
   
         <Routes>
           <Route path='/' element={<Sidebar />}>

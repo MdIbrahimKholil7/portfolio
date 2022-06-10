@@ -24,3 +24,27 @@
   top: 50%;
   right: -80%;
 }
+
+@media screen and (max-width:470px){
+  .title::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background:#037fff;
+    top: 50%;
+    left: -60%;
+    padding: 0 10px;
+  }
+  
+  .title::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background:#037fff;
+    top: 50%;
+    right: -60%;
+  }
+}
+
