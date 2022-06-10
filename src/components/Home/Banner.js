@@ -5,7 +5,6 @@ import { FaFacebook } from 'react-icons/fa';
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 // import 'react-simple-typewriter/dist/index.css'
 const Banner = () => {
-
     const { text } = useTypewriter({
         words: [' Junior Web Developer', ' Frontend Developer'],
         loop: 0,
@@ -52,7 +51,7 @@ const Banner = () => {
                             </a>
                         </div>
                         <button class="btn btn-primary mr-9">Hire Me</button>
-                        <a href="Ibrahim Kholil.pdf" download={true}><button class="btn btn-primary">Download Cv</button></a>
+                        <a href="https://drive.google.com/file/d/1H_uu-qckcXWKRSJCcOa_TLIBtYEYNRfx/view" target='_blank' rel="noreferrer" download={true}><button class="btn btn-primary">Resume</button></a>
                     </div>
                 </div>
             </div>

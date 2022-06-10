@@ -48,6 +48,27 @@
   }
 }
 
+/* project card hover effect  */
+.details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-500px);
+  transition: .3s all;
+}
+.card{
+  transition: .3s all;
+}
+.card:hover .details{
+  transform: translateX(0);
+}
+
 /* card hover effect  */
 .service-card {
   display: block;
@@ -141,15 +162,19 @@
 .bar.html::before {
   background-color: #ffcc33;
 }
+
 .bar.css::before {
   background-color: #254099;
 }
+
 .bar.tailwind::before {
   background-color: #2a1c78;
 }
+
 .bar.javascript::before {
   background-color: #860982;
 }
+
 .bar.react::before {
   background-color: #2e7937;
 }
@@ -157,6 +182,7 @@
 .bar.back::before {
   background-color: #a6cfe3;
 }
+
 .bar.node::before {
   background-color: #4a0779;
 }
@@ -173,9 +199,11 @@
 .bar.expert::before {
   width: calc(97% - 10px);
 }
+
 .bar.bootstrap::before {
   width: calc(89% - 10px);
 }
+
 .bar.tailwind::before {
   width: calc(80% - 10px);
 }
@@ -187,16 +215,19 @@
 .bar.javascript::before {
   width: calc(70% - 10px);
 }
+
 .bar.react::before {
   width: calc(65% - 10px);
 }
+
 .bar.node::before {
   width: calc(45% - 10px);
 }
+
 .bar.express::before {
   width: calc(55% - 10px);
 }
+
 .bar.back::before {
   width: calc(45% - 10px);
 }
-

@@ -22,17 +22,21 @@ const ProjectCard = ({ project }) => {
 
 
     return (
-    
-        <div class="card max-w-sm bg-base-100 shadow-xl">
-          <img className='h-[230px] object-cover ' src={img} alt="Shoes" />
+
+        <div class="card max-w-sm bg-base-100 shadow-xl relative">
+            <img className='h-[230px] object-cover ' src={img} alt="Shoes" />
             <div class="card-body text-gray-400 p-2 text-left justify-start items-start text-[14px]">
                 <span
-                className=''
+                    className=''
                 >{fullDesc}</span>
                 {
                     open ? <button onClick={handleLess}>Show Less</button> : <button onClick={handleMore}>Show More</button>
                 }
                 <p><strong>Technology:</strong>{technology}</p>
+            </div>
+            <div className='details'>
+                <button className='btn btn-primary mr-3'>Details</button>
+                <button className='btn btn-primary'>Live Site</button>
             </div>
         </div>
     );
