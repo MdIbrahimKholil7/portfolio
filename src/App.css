@@ -48,3 +48,34 @@
   }
 }
 
+/* card hover effect  */
+.service-card {
+  display: block;
+  position: relative;
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  height: 260px;
+  transition: .3s ease;
+}
+.service-card::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: #747475;
+  height: 40px;
+  width: 40px;
+  border-radius: 32px;
+  transform: scale(1);
+  /* transform-origin: 50% 50%; */
+  transition: transform .5s ease-out;
+}
+.service-card:hover::before {
+  transform: scale(23);
+}
+.service-card:hover{
+  margin-top: -15px;
+}
