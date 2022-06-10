@@ -24,7 +24,7 @@ const ProjectCard = ({ project }) => {
     return (
     
         <div class="card max-w-sm bg-base-100 shadow-xl">
-          <img className='h-[230px]' src={img} alt="Shoes" />
+          <img className='h-[230px] object-cover ' src={img} alt="Shoes" />
             <div class="card-body text-gray-400 p-2 text-left justify-start items-start text-[14px]">
                 <span
                 className=''
