@@ -9,7 +9,8 @@ const Banner = () => {
     const { text } = useTypewriter({
         words: [' Junior Web Developer', ' Frontend Developer'],
         loop: 0,
-
+        delaySpeed:1000,
+        deleteSpeed:60
     })
     return (
         <div>
@@ -19,13 +20,14 @@ const Banner = () => {
                         <h1 class="text-4xl font-bold font">Hi, I am <span className='text-[#037fff]'>Ibrahim Kholil</span></h1>
                         <div className='text-2xl mt-2'>
                             I Am A
-                            <span className='text-[#037fff]'>
+                            <span className='text-[#037fff] font-bold'>
                                 {
                                     text
                                 }
                                 <Cursor
                                     cursorStyle='|'
                                 />
+                                
                             </span>
                         </div>
                         <div className='flex my-7'>

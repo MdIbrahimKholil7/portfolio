@@ -1,4 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,300;0,500;1,500&family=Nunito+Sans:wght@600&family=Oleo+Script&family=Oswald:wght@300;400&display=swap');
+
 .font{
   font-family: 'Nunito Sans', sans-serif;
+}
+
+.title::before{
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 3px;
+  background:#037fff;
+  top: 50%;
+  left: -80%;
+  padding: 0 10px;
+}
+
+.title::after{
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 3px;
+  background:#037fff;
+  top: 50%;
+  right: -80%;
 }
