@@ -1,3 +1,4 @@
+import React, { Suspense } from 'react';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Sidebar from './components/Home/Sidebar';
@@ -10,14 +11,19 @@ import AboutMe from './components/Home/AboutMe';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import gif from './assets/gif2.gif'
 function App() {
-  useEffect(()=>{
+  useEffect(() => {
     AOS.init();
-  },[])
+  }, [])
+  const Sidebar = React.lazy(() => import('./components/Home/Sidebar'))
+
   return (
     <div className="App bg-base-200">
       <Routes>
-        <Route path='/' element={<Sidebar />}>
+        <Route path='/' element={<Suspense fallback={<div  className='bg-black flex justify-center items-center h-[100vh] w-[100vw]'><img className='w-[70vw] h-[70vh] object-cover' src={gif} alt="" /></div>}>
+          <Sidebar />
+        </Suspense>}>
           <Route index element={<Home />} />
           <Route path='project' element={<Project />} />
           <Route path='contact' element={<Contact />} />
