@@ -4,21 +4,21 @@ const ProjectCard = ({ project }) => {
     const [fullDesc, setFullDesc] = useState('')
     const [showLess, setShowLess] = useState('')
     const [open, setOpen] = useState(false)
-    const { desc, img, technology } = project || {}
-    useEffect(() => {
+    const { description, img, technology } = project || {}
+   /*  useEffect(() => {
         const more = desc.length > 70 ? desc.slice(0, 100) + ' ...' : desc
         setFullDesc(more)
         setShowLess(more)
-    }, [desc])
+    }, [desc]) */
 
-    const handleMore = () => {
+/*     const handleMore = () => {
         setFullDesc(desc)
         setOpen(true)
     }
     const handleLess = () => {
         setFullDesc(showLess)
         setOpen(false)
-    }
+    } */
 
 
     return (
@@ -28,10 +28,10 @@ const ProjectCard = ({ project }) => {
             <div class="card-body text-gray-400 p-2 text-left justify-start items-start text-[14px]">
                 <span
                     className=''
-                >{fullDesc}</span>
-                {
+                >{description}</span>
+               {/*  {
                     open ? <button onClick={handleLess}>Show Less</button> : <button onClick={handleMore}>Show More</button>
-                }
+                } */}
                 <p><strong>Technology:</strong>{technology}</p>
             </div>
             <div className='details'>

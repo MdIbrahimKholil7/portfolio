@@ -60,7 +60,7 @@
   justify-content: center;
   align-items: center;
   transform: translateX(-500px);
-  transition: .3s all;
+  transition: .5s ease-in-out;
 }
 .card{
   transition: .3s all;

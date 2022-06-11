@@ -23,7 +23,8 @@ const Navbar = ({ children }) => {
                         <li ><NavLink className='text-center p-3 uppercase text-[16px] block' to='/'>Home</NavLink></li>
                         <li><NavLink className='text-center p-3 uppercase text-[16px] block' to='project'>Project</NavLink></li>
                         <li > <NavLink className='text-center p-3 uppercase text-[16px] block' to='contact'>Contact Me</NavLink></li>
-                        <li><a className='text-center uppercase block text-[16px]' href="file:///C:/Users/PC/Desktop/resume/Ibrahim%20Kholil2.pdf" download={true}>Resume</a></li>
+                        <li > <NavLink className='text-center p-3 uppercase text-[16px] block' to='blog'>Blog</NavLink></li>
+                        <li><a className='text-center uppercase block text-[16px]' href="https://drive.google.com/file/d/1H_uu-qckcXWKRSJCcOa_TLIBtYEYNRfx/view" target='_blank' rel="noreferrer" download={true}>Resume</a></li>
                     </ul>
                 </div>
             </div>

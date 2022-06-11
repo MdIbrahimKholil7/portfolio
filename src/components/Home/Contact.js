@@ -35,7 +35,7 @@ emailjs.sendForm('service_b0ondco','template_hek387i',e.target,'iyNwT38vA4zpSYRn
     }
     // console.log(error)
     return (
-        <div className='px-4'>
+        <div className='px-4 my-14'>
             <h1 className='text-center mb-24 lg:text-3xl xl:text-4xl text-2xl'><span className='title relative '>Contract Me</span></h1>
 
             <div className='grid lg:grid-cols-2 gap-7'>
