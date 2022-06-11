@@ -231,3 +231,6 @@
 .bar.back::before {
   width: calc(45% - 10px);
 }
+.img{
+  width: 250px !important;
+}

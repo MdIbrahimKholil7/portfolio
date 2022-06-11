@@ -7,10 +7,13 @@ const AboutMe = () => {
             <h1 className='text-center mb-16 lg:text-3xl xl:text-4xl text-2xl'><span className='title relative '>About Me</span></h1>
             <div class="hero h-auto ">
                 <div class="hero-content w-full lg:gap-10 gap-9 flex-col justify-between lg:flex-row">
-                    <Fade left>
-                        <img
+                    <Fade left
 
-                            src={about} class="xl:w-[320px] lg:w-[240px] w-[180px] object-cover rounded-lg " alt='aboutImg' />
+                    >
+                        
+                            <img
+                                src={about} class="xl:w-[320px] img lg:w-[240px] w-[180px] object-cover rounded-lg " alt='aboutImg' />
+                       
                     </Fade>
                     <Fade right>
                         <div

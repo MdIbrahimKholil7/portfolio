@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 const ProjectCard = ({ project }) => {
 
@@ -17,7 +16,7 @@ const ProjectCard = ({ project }) => {
                 <p><strong>Technology:</strong>{technology}</p>
             </div>
             <div className='details'>
-                <button onClick={()=>navigate(`projectDetails/${id}`)} className='btn btn-primary mr-3'>Details</button>
+                <button onClick={()=>navigate(`/projectDetails/${id}`)} className='btn btn-primary mr-3'>Details</button>
                 <a href={liveLink} target='_blank' rel="noreferrer" className='btn btn-primary'>Live Site</a>
             </div>
         </div>
