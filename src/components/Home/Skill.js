@@ -3,7 +3,7 @@ import React from 'react';
 const Skill = () => {
     return (
         <div className='px-4  mb-20'>
-            <h1 className='text-center mb-24 lg:text-3xl xl:text-4xl text-2xl'><span className='title relative '>My Skill</span></h1>
+            <h1 className='text-center mb-24 lg:text-3xl xl:text-4xl text-2xl'><span className='title relative '>My Skills</span></h1>
             <div class="container grid lg:grid-cols-2 md:gap-7">
                 <div>
                     <span className='mb-2 uppercase text-[16px] block'>Html</span>

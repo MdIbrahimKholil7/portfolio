@@ -1,6 +1,6 @@
 import bikePart from '../../assets/project1.png'
-import gymImg from '../../assets/project2.png'
-import cargoImg from '../../assets/project3.png'
+import cargoImg from '../../assets/project2.png'
+import gymImg from '../../assets/project3.png'
 import laptop1 from '../../assets/laptop1.png'
 import laptop2 from '../../assets/laptop2.png'
 import laptop3 from '../../assets/laptop3.png'
@@ -24,37 +24,50 @@ import cargo2 from '../../assets/cargo2.png'
 import cargo3 from '../../assets/cargo3.png'
 import cargo4 from '../../assets/cargo4.png'
     const details=[
-        {
+        {   
+            id:1,
             name:'Bike Parts',
             img:bikePart,
             description:`It's a bike parts website. User can buy their different bike parts. Users can purchase products for their bike parts shop.`,
             desc:`It's a bike parts website. User can buy their different bike parts. Users can purchase products for their bike parts shop. Users can see the ordered product and also can delete their product.Users can pay with card. User and admin can log in using google and email password. Admin and user can set their profile. Admin can remove any user, add any product, update product, make any admin, shift the paid product`,
             technology:`React js,React Router,Node.Js,Express Js,Mongo Db,Strype,Firebase,Tailwind Css`,
-            images:[bike1,bike2,bike3,bike4,bike5,bike6,bike7,bike8,bike9,bike10]
+            images:[bike1,bike2,bike3,bike4,bike5,bike6,bike7,bike8,bike9,bike10],
+            liveLink:'https://parts-mania.web.app/',
+            github:'https://github.com/programming-hero-web-course1/manufacturer-website-client-side-MdIbrahimKholil7'
         },
         {
+            id:2,
             name:'Gym Site',
-            img:cargoImg,
+            img:gymImg,
             description:`It's a gym website.User can see different kind of gym service.They can book their favorite service`,
             desc:`It's a gym website.User can see different kind of gym service.They can book their favorite service.If any user wants they can book their personal trainer.User can log in using google and email password.`,
             technology:`React js,React Router,Firebase,Tailwind Css`,
-            images:[gym1,gym2,gym3]
+            images:[gym1,gym2,gym3],
+            liveLink:'https://gym-project-2.web.app',
+            github:'https://github.com/programming-hero-web-course-4/independent-service-provider-MdIbrahimKholil7'
         },
         {
+            id:3,
             name:'Cargo Site',
-            img:gymImg,
+            img:cargoImg,
             description:`t's a Product warehouse website.User can export any product in different country.Driller can update their product quantity`,
             desc:`It's a Product warehouse website.User can export any product in different country.Driller can update their product quantity.Driller can add any product.User and admin can log in using google and email password`,
             technology:`React js,React Router,Node.Js,Express Js,Mongo Db,Firebase,Tailwind Css`,
-            images:[cargo1,cargo2,cargo3,cargo4]
+            images:[cargo1,cargo2,cargo3,cargo4],
+            liveLink:'https://cargo-warehouse.web.app/',
+            github:':https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-MdIbrahimKholil7'
+            
         },
         {
+            id:4,
             name:'Laptop Shop',
             img:laptop1,
             description:`It's a laptop shop.User can buy different kinds of laptop.User give their feedback.`,
             desc:`It's a laptop shop.User can buy different kinds of laptop.User give their feedback.User can see product activity in the dashboard`,
             technology:`React js,React Router,Firebase,Tailwind Css,Rechart`,
-            images:[laptop1,laptop2,laptop3,laptop4,laptop5]
+            images:[laptop1,laptop2,laptop3,laptop4,laptop5],
+            liveLink:'https://laptopshop-2dc4f8.netlify.app/',
+            github:'https://github.com/programming-hero-web-course-4/product-analysis-website-MdIbrahimKholil7'
         },
     ]
    

@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import details from '../ProjectDetails/ProjectDetails';
+import details from '../ProjectDetails/ProjectDesc';
 const Project = () => {
     return (
         <div className='my-14 px-4'>
@@ -8,6 +8,7 @@ const Project = () => {
             <div className='grid md:grid-cols-2 lg:grid-cols-3 mt-14 gap-5 justify-items-center'>
                 {
                     details.slice(0,3).map(project => <ProjectCard
+                        key={project.id}
                         project={project}
                     />)
                 }
