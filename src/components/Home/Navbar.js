@@ -9,7 +9,7 @@ const Navbar = ({ children }) => {
                 <div class="drawer-content flex flex-col ">
                     {/* <!-- Page content here --> */}
                     {children}
-                    <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden">Open drawer</label>
+                  
                 </div>
 
                 <div class="drawer-side">
@@ -22,6 +22,7 @@ const Navbar = ({ children }) => {
                         <div class="divider mb-9"></div>
                         <li ><NavLink className='text-center p-3 uppercase text-[16px] block' to='/'>Home</NavLink></li>
                         <li><NavLink className='text-center p-3 uppercase text-[16px] block' to='project'>Project</NavLink></li>
+                        <li><NavLink className='text-center p-3 uppercase text-[16px] block' to='aboutMe'>About Me</NavLink></li>
                         <li > <NavLink className='text-center p-3 uppercase text-[16px] block' to='contact'>Contact Me</NavLink></li>
                         <li > <NavLink className='text-center p-3 uppercase text-[16px] block' to='blog'>Blog</NavLink></li>
                         <li><a className='text-center uppercase block text-[16px]' href="https://drive.google.com/file/d/1H_uu-qckcXWKRSJCcOa_TLIBtYEYNRfx/view" target='_blank' rel="noreferrer" download={true}>Resume</a></li>

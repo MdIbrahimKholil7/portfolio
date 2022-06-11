@@ -39,7 +39,7 @@ const ProjectDetails = () => {
                 </p>
                 <p className='mt-3 mb-5'><strong>Technology:</strong>{filterProject.technology}</p>
                 <a href={filterProject.liveLink} target='_blank' rel="noreferrer" className='btn btn-primary mr-9 '>Live Site</a>
-                <a href={filterProject.github} target='_blank' rel="noreferrer" className='btn btn-primary '>Live Site</a>
+                <a href={filterProject.github} target='_blank' rel="noreferrer" className='btn btn-primary '>Github</a>
             </div>
         </div>
     );

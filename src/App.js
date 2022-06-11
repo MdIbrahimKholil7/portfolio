@@ -6,8 +6,14 @@ import Project from './components/Home/Project';
 import Contact from './components/Home/Contact';
 import Blog from './components/Home/Blog';
 import ProjectDetails from './components/Home/ProjectDetails';
-
+import AboutMe from './components/Home/AboutMe';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 function App() {
+  useEffect(()=>{
+    AOS.init();
+  },[])
   return (
     <div className="App bg-base-200">
       <Routes>
@@ -15,6 +21,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path='project' element={<Project />} />
           <Route path='contact' element={<Contact />} />
+          <Route path='AboutMe' element={<AboutMe />} />
           <Route path='blog' element={<Blog />} />
           <Route path='projectDetails/:id' element={<ProjectDetails />} />
         </Route>
