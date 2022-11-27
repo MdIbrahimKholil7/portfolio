@@ -7,7 +7,7 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import Zoom from 'react-reveal/Zoom';
 const Banner = () => {
     const { text } = useTypewriter({
-        words: [' Junior Web Developer', ' Frontend Developer'],
+        words: ['MERN Stack Developer','Web Developer', ' Frontend Developer'],
         loop: 0,
         delaySpeed: 1000,
         deleteSpeed: 60
@@ -55,7 +55,7 @@ const Banner = () => {
                                 </a>
                             </div>
                             <button class="btn btn-primary mr-9">Hire Me</button>
-                            <a href="https://drive.google.com/file/d/1H_uu-qckcXWKRSJCcOa_TLIBtYEYNRfx/view" target='_blank' rel="noreferrer" download={true}><button class="btn btn-primary">Resume</button></a>
+                            <a href="https://drive.google.com/file/d/17yRe1zE4R0Pc8fCoYLYRQTNbptI7Vky8/view?usp=share_link" target='_blank' rel="noreferrer" download={true}><button class="btn btn-primary">Resume</button></a>
                         </div>
                     </div>
                 </div>
