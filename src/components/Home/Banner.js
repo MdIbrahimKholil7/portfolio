@@ -7,7 +7,7 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import Zoom from 'react-reveal/Zoom';
 const Banner = () => {
     const { text } = useTypewriter({
-        words: ['MERN Stack Developer','Web Developer', ' Frontend Developer'],
+        words: [' MERN Stack Developer',' Web Developer', ' Frontend Developer'],
         loop: 0,
         delaySpeed: 1000,
         deleteSpeed: 60
